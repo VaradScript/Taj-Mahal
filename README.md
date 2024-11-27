@@ -56,7 +56,7 @@ Follow these steps to get the project running on your local machine:
 1. **Clone the Repository**  
    Download the source code or clone the repository:
    ```bash
-   git 
+   git git clone https://github.com/varadarajdganiga777/Taj-Mahal.git
 Open the HTML File
 Navigate to the project folder and open the minor.proj.css.html file in your browser.
 
