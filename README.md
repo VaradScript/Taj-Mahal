@@ -1,33 +1,3 @@
-# Taj Mahal Historical Places Website
-
-This project is a simple yet elegant webpage showcasing the Taj Mahal, its history, and its architectural marvels. 
-
-## Getting Started
-
-These instructions will guide you on how to set up and run the project locally.
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- A modern web browser (e.g., Chrome, Firefox)
-- Basic knowledge of HTML/CSS
-- A code editor (e.g., Visual Studio Code)
-
-### Installing
-
-Follow these steps to get the project running on your local machine:
-
-1. **Clone the Repository**  
-   Download the source code or clone the repository:
-   ```bash
-   git clone <repository-url>
-Open the HTML File
-Navigate to the project folder and open the minor.proj.css.html file in your browser.
-
-Run a Local Server (Optional)
-Use a tool like Live Server to serve the files for local development:
-npx live-server
 
 
 
