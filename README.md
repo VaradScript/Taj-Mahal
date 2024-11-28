@@ -29,10 +29,8 @@ Run a Local Server (Optional)
 Use a tool like Live Server to serve the files for local development:
 npx live-server
 
-Here’s a complete README.md file written as part of the code:
 
-markdown
-Copy code
+
 # Taj Mahal Historical Places Website
 
 This project is a simple yet elegant webpage showcasing the Taj Mahal, its history, and its architectural marvels. 
