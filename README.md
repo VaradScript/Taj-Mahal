@@ -60,8 +60,8 @@ Built With
 HTML5
 CSS3
 Grid Layout
-Author
 
+Author
 Email: gamingidvarda007@gmail.com
 Acknowledgments
 Taj Mahal content inspired by historical records.
