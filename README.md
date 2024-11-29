@@ -61,8 +61,9 @@ HTML5
 CSS3
 Grid Layout
 
-Author
-Email: gamingidvarda007@gmail.com
+Author:
+[<img src="https://avatars.githubusercontent.com/u/108749445?s=64&v=4" width="64" height="64" alt="0x_varadacode">](https://github.com/0x_varadacode)
+
 Acknowledgments
 Taj Mahal content inspired by historical records.
 Background image sourced from the project directory.
