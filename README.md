@@ -68,4 +68,3 @@ Acknowledgments
 Taj Mahal content inspired by historical records.
 Background image sourced from the project directory.
 typescript
-Copy code
