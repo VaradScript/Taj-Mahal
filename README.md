@@ -59,7 +59,7 @@ Update the file paths of images to absolute URLs or ensure the images are upload
 Built With
 HTML5
 CSS3
-Grid Layout
+Grid Layout.
 
 Author:
 [<img src="https://avatars.githubusercontent.com/u/108749445?s=64&v=4" width="64" height="64" alt="0x_varadacode">](https://github.com/0x_varadacode)
