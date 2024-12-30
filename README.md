@@ -1,7 +1,7 @@
 
 
 
-# Taj Mahal Historical Places Website
+## Taj Mahal Historical Places Website
 
 This project is a simple yet elegant webpage showcasing the Taj Mahal, its history, and its architectural marvels. 
 
