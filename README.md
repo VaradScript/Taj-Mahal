@@ -61,7 +61,7 @@ HTML5
 CSS3
 Grid Layout.
 
-Author:
+Author :
 [<img src="https://avatars.githubusercontent.com/u/108749445?s=64&v=4" width="64" height="64" alt="0x_varadacode">](https://github.com/0x_varadacode)
 
 Acknowledgments
