@@ -9,7 +9,7 @@ This project is a simple yet elegant webpage showcasing the Taj Mahal, its histo
 
 These instructions will guide you on how to set up and run the project locally.
 
-### Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
