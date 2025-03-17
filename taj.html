@@ -8,64 +8,81 @@
   <meta name="keywords" content="Taj Mahal, Mughal architecture, Shah Jahan, historical places, Agra tourism">
   <meta name="robots" content="index, follow">
 
-  <title>Historical Places: Taj Mahal - Tourist Guide</title>
+  <title>Historical Places: Taj Mahal - Royal Guide</title>
 
   <style>
-    body {    
-      background: url("./img.taj.jpg");
+    body {
+      background: linear-gradient(135deg, #2a1a3d, #4b2e83); /* Royal purple gradient */
       background-size: cover;
-      background-attachment: fixed;
-      background-attachment: scroll;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Cinzel', Georgia, 'Times New Roman', serif; /* Elegant royal font */
+      color: #f0e6d2; /* Off-white for visibility against royal background */
+    }
+    .royal-border {
+      border: 2px solid #d4a017; /* Gold border for royal effect */
+      border-radius: 10px;
+      padding: 15px;
+      margin: 20px;
+    }
+    .h1 {
+      text-align: center;
+      font-size: 60px; /* Increased for grandeur */
+      background: linear-gradient(45deg, #8b4513, #d4a017); /* Royal gold-red gradient */
+      color: #f0e6d2;
+      padding: 25px;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+      font-weight: bold;
+    }
+    .p {
+      font-size: 22px;
+      line-height: 1.6; /* Improved readability */
+      padding: 0 20px;
     }
     .item-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     }
     div.item {
-      background: #283747;
-      color: white;
+      background: #4b2e83; /* Royal purple for items */
+      color: #f0e6d2;
       margin: 1rem;
-      padding: 10px;
+      padding: 15px;
       text-align: center;
+      border: 2px solid #d4a017; /* Gold border */
+      border-radius: 5px;
     }
     .flip {
-      grid-template-columns: 1fr; 
+      grid-template-columns: 1fr;
     }
-    .h1 {
-      text-align: center;
-      font-size: 50px;
-      background-color: blueviolet;
-      color: mintcream;
-      padding: 20px;
-      margin: 0;
-    }
-    .p {
-      color: azure;
-      font-size: 25px;
-    }
-    /* Added tourist section styling */
     .tourist-section {
-      background: rgba(0, 0, 0, 0.7);
-      color: white;
-      padding: 20px;
+      background: rgba(139, 69, 19, 0.9); /* Deep red with transparency */
+      color: #f0e6d2;
+      padding: 25px;
       margin: 20px;
-      border-radius: 10px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Royal shadow */
     }
     .tourist-section h2 {
-      color: mintcream;
+      color: #d4a017; /* Gold for headings */
       text-align: center;
+      font-size: 32px;
+    }
+    .tourist-section h3 {
+      color: #f0e6d2;
+      font-size: 24px;
     }
     .tourist-section ul {
-      list-style-type: disc;
+      list-style-type: square;
       padding-left: 40px;
+      font-size: 18px;
     }
     .tourist-section img {
       max-width: 100%;
       height: auto;
       border-radius: 10px;
+      border: 2px solid #d4a017; /* Gold border for images */
       margin: 10px 0;
     }
     .attractions-grid {
@@ -75,11 +92,16 @@
       padding: 20px;
     }
     .attraction-card {
-      background: rgba(255, 255, 255, 0.9);
-      color: black;
+      background: rgba(212, 160, 23, 0.2); /* Light gold transparency */
+      color: #2a1a3d; /* Dark purple text for contrast */
       padding: 15px;
       border-radius: 10px;
       text-align: center;
+      border: 2px solid #8b4513; /* Deep red border */
+    }
+    .attraction-card h4 {
+      color: #d4a017;
+      font-size: 20px;
     }
     .attraction-card img {
       width: 100%;
@@ -89,11 +111,24 @@
     }
     @media (max-width: 768px) {
       .h1 {
-        font-size: 36px;
+        font-size: 40px;
       }
       .p {
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 10px;
+      }
+      .tourist-section {
+        margin: 10px;
+        padding: 15px;
+      }
+      .tourist-section h2 {
+        font-size: 24px;
+      }
+      .tourist-section h3 {
+        font-size: 18px;
+      }
+      .tourist-section ul {
+        font-size: 14px;
       }
       img {
         width: 100%;
@@ -101,37 +136,53 @@
       }
     }
     footer {
-      background: rgba(0, 0, 0, 0.7);
+      background: #2a1a3d; /* Dark royal purple */
       padding: 20px;
       text-align: center;
+      border-top: 2px solid #d4a017; /* Gold border */
     }
     footer p {
       margin: 5px 0;
+      color: #f0e6d2;
     }
     footer a {
-      color: azure;
+      color: #d4a017; /* Gold links */
       text-decoration: none;
     }
     footer a:hover {
       text-decoration: underline;
+      color: #f0e6d2; /* White on hover */
+    }
+    button {
+      background: #8b4513; /* Deep red button */
+      color: #f0e6d2;
+      border: 2px solid #d4a017;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background: #d4a017; /* Gold on hover */
+      color: #2a1a3d;
     }
   </style>
 </head>
 
 <body>
-  <h1 class="h1">TAJ MAHAL</h1><br><br>
+  <h1 class="h1 royal-border">TAJ MAHAL</h1><br><br>
   <center>
-    <!-- Using a linked image for the Taj Mahal -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1200px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg" width="550px" height="400px" alt="Taj Mahal Image"><br><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1200px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg" width="550px" height="400px" alt="Taj Mahal Image" class="royal-border"><br><br>
   </center>
-  <p class="p">
+  <p class="p royal-border">
     <big>The</big> battle of Panipat laid the foundation of the Mughal dynasty in Agra. The loss of the Afghan Ruler, Sikandar Lodhi became the turning point that piloted the nation’s forays into the world of architectural majesty. Globally renowned as the city of the Taj Mahal, this royal Mughal city has many other monuments too that emphasise the high point of Mughal architecture.
 
     The founder of the Mughal dynasty, Babur, laid out the first formal Persian garden on the banks of the river Yamuna. Akbar raised the towering ramparts of the great Red Fort and within its walls Jahangir built rose-red palaces, courts and gardens.
     
     However, the crowning glory of the city is obviously The Taj, a monument of an imagination turned into a "symbol of eternal love". The Taj represents India to the world embellished by Shah Jahan with marble mosques, palaces and pavilions of gem-inlaid white marble.
     
-    In 1631 AD, Shah Jahan, the Emperor during the Mughal Empire's period of greatest prosperity, was grief stricken when his third wife, Mumtaz Mahal died during the birth of their fourtheenth child, Gauhar Ara Begum. The court chronicles of ShahJahan's grief illustrate the love story traditionally held as an inspiration for the Taj Mahal.
+    In 1631 AD, Shah Jahan, the Emperor during the Mughal Empire's period of greatest prosperity, was grief stricken when his third wife, Mumtaz Mahal died during the birth of their fourteenth child, Gauhar Ara Begum. The court chronicles of Shah Jahan's grief illustrate the love story traditionally held as an inspiration for the Taj Mahal.
     
     The Taj Mahal incorporates and expands on design traditions of Persian architecture and earlier Mughal architecture. Specific inspiration came from successful Timurid and Mughal buildings including; the Gur-e Amir (the tomb of Timur, progenitor of the Mughal dynasty, in Samarkand), Humayun's Tomb and Shah Jahan's own Jama Masjid in Delhi.
     
@@ -150,9 +201,8 @@
     To make it most gorgeous architectural piece, as many as 28 precious and semi-precious stones were used in the ornamentation with their best combination. But the thing, dominantly used in ornamentation was the famous snow white marble that was found in Makrana (Rajasthan).
   </p><br><br>
 
-  <!-- Added Tourist Information Section -->
-  <div class="tourist-section">
-    <h2>Plan Your Visit to the Taj Mahal</h2>
+  <div class="tourist-section royal-border">
+    <h2>Plan Your Royal Visit to the Taj Mahal</h2>
     <h3>Visiting Tips</h3>
     <ul>
       <li><strong>Best Time to Visit:</strong> Visit between October and March for pleasant weather. Early mornings or late afternoons offer the best lighting for photos and fewer crowds.</li>
@@ -165,34 +215,30 @@
 
     <h3>Nearby Attractions</h3>
     <div class="attractions-grid">
-      <div class="attraction-card">
+      <div class="attraction-card royal-border">
         <h4>Agra Fort</h4>
-        <!-- Linked image for Agra Fort -->
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Agra_Fort.jpg/1200px-Agra_Fort.jpg" alt="Agra Fort">
         <p>A UNESCO World Heritage Site, 2.5 km from the Taj Mahal, built by Emperor Akbar. Explore its palaces, mosques, and courtyards.</p>
       </div>
-      <div class="attraction-card">
+      <div class="attraction-card royal-border">
         <h4>Mehtab Bagh</h4>
-        <!-- Placeholder image link for Mehtab Bagh -->
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mehtab_Bagh_with_Taj_Mahal_in_background.jpg/1200px-Mehtab_Bagh_with_Taj_Mahal_in_background.jpg" alt="Mehtab Bagh">
         <p>A serene garden across the Yamuna River, offering stunning views of the Taj Mahal, especially at sunset. Entry: ₹300 for foreigners.</p>
       </div>
-      <div class="attraction-card">
+      <div class="attraction-card royal-border">
         <h4>Itmad-Ud-Daulah's Tomb</h4>
-        <!-- Placeholder image link for Itmad-Ud-Daulah -->
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Itmad-ud-Daulah_Tomb_Agra_India.jpg/1200px-Itmad-ud-Daulah_Tomb_Agra_India.jpg" alt="Itmad-Ud-Daulah's Tomb">
         <p>Known as the "Baby Taj," this tomb (6.7 km away) features intricate marble inlay work and is a precursor to the Taj Mahal.</p>
       </div>
-      <div class="attraction-card">
+      <div class="attraction-card royal-border">
         <h4>Fatehpur Sikri</h4>
-        <!-- Placeholder image link for Fatehpur Sikri -->
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Fatehpur_Sikri_Buland_Darwaza.jpg/1200px-Fatehpur_Sikri_Buland_Darwaza.jpg" alt="Fatehpur Sikri">
         <p>A UNESCO World Heritage Site 41.4 km from the Taj Mahal, known for its red sandstone architecture and historical significance.</p>
       </div>
     </div>
 
     <h3>Local Dining and Shopping</h3>
-    <p>After exploring, try local Agra cuisine like <strong>Bedai</strong> (deep-fried bread with potato gravy) at Deviram Sweets & Restaurant, or enjoy rooftop dining with Taj views at many nearby restaurants. For shopping, visit Taj Ganji market for miniature Taj replicas, hand-embroidered textiles, and traditional jewelry.</p>
+    <p>After exploring, indulge in royal Agra cuisine like <strong>Bedai</strong> at Deviram Sweets & Restaurant, or enjoy rooftop dining with Taj views at many nearby establishments. For shopping, visit Taj Ganji market for miniature Taj replicas, hand-embroidered textiles, and traditional jewelry.</p>
   </div>
 
   <button onClick="toggle()">Click to Flip</button>
@@ -205,9 +251,9 @@
     <div class="item">5</div>
   </div><br><br>
 
-  <footer>
-    <p style="color:rgb(200, 212, 212);font-size:30px;">Designed and Developed by: Vardaraj D Ganiga</p>
-    <p style="color:azure;font-size:23px;">
+  <footer class="royal-border">
+    <p style="color:#f0e6d2;font-size:30px;">Designed and Developed by: Vardaraj D Ganiga</p>
+    <p style="color:#d4a017;font-size:23px;">
       <a href="mailto:gamingidvarda007@gmail.com">gamingidvarda007@gmail.com</a>
       | <a href="https://github.com/VaradScript/TajMahal" target="_blank">View on GitHub</a>
     </p>
